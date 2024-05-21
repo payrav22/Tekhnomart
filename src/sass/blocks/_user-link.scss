@@ -1,0 +1,42 @@
+.user-link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    transition: .2s;
+    padding: 9px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    &:active {
+        opacity: 30%;
+        background-color: #161D29;
+    }
+
+    &--success {
+        background-color: #63A63E;
+        padding: 9px 18px;
+
+        &:hover {
+            background-color: #5FBB2D;
+        }
+
+        &:active {
+            background-color: #63A63E;
+            color: #B1D39F;
+        }
+    }
+
+    &:hover .user-link__icon {
+        opacity: 100%;
+    }
+
+    &:active .user-link__icon {
+        opacity: 30%;
+    }
+}
+
+.user-link__icon {
+    opacity: 30%;
+    transition: .2s;
+}

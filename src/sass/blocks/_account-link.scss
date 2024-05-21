@@ -1,0 +1,33 @@
+.account-link {
+    display: flex;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000;
+    background-color: #ffffff;
+    padding: 12px 24.1px;
+    gap: 6px;
+    transition: .2s;
+    text-decoration: none;
+
+    &:hover {
+        color: #EE3643;
+    }
+
+    &:active {
+        color: #C5C5C5;
+    }
+
+    &:hover .account-link__icon {
+        color: #3D546F;
+        opacity: 1;
+    }
+
+    &:focus .account-link__icon {
+        color: #C5C5C5;
+    }
+}
+
+.account-link__icon {
+    opacity: 30%;
+    transition: .2s;
+}

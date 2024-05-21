@@ -1,0 +1,67 @@
+.header-button__order {
+    border: none;
+    padding: 10.6px 18px;
+    font-family: "Cuprum", sans-serif;
+    background-color: #63A63E;
+    transition: .1s;
+    color: #ffffff;
+
+    &:hover {
+        background-color: #5FBB2D;
+    }
+
+    &:active {
+        background-color: #63A63E;
+        color: #B1D39F;
+    }
+}
+
+.header-button__login {
+    border: none;
+    font-family: "Cuprum", sans-serif;
+    font-size: 21px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10.5px 24px;
+    margin-right: 5px;
+    transition: .1s;
+
+    &:hover {
+        color: #EE3643;
+    }
+
+    &:active {
+        color: #C5C5C5;
+    }
+
+    &:hover .header-butoon__icon {
+        color: #3D546F;
+    }
+
+    &:active .header-butoon__icon {
+        color: #C5C5C5;
+    }
+}
+
+.header-button__registration {
+    border: none;
+    font-family: "Cuprum", sans-serif;
+    font-size: 21px;
+    background-color: #ffffff;
+    padding: 10.5px 24px;
+
+    &:hover {
+        color: #EE3643;
+    }
+
+    &:active {
+        color: #C5C5C5;
+    }
+}
+
+.header-butoon__icon {
+    position: relative;
+    top: 1px;
+    color: #C5C5C5;
+    transition: .1s;
+}

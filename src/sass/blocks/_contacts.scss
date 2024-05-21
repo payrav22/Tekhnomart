@@ -1,0 +1,34 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts__tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #EE3643;
+    gap: 16px;
+    border: 3px solid #ffffff;
+    padding: 3.6px 44.78px 3.6px 40px;
+
+}
+
+.contacts__address {
+    font-size: 14px;
+    line-height: 24px;
+    color: #32425C;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contacts__icon {
+    color: #B7BFC8;
+}

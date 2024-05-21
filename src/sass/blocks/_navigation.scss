@@ -1,0 +1,30 @@
+.navigation {
+    display: block;
+    background-color: #32425C;
+    color: #ffffff;
+    margin-top: 44px;
+}
+
+.navigation__links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-bottom: 4px solid #273246;
+}
+
+.navigation__link {
+    padding: 18.8px 0;
+    text-decoration: none;
+    transition: .2s;
+
+    &:hover {
+        background-color: #293449;
+    }
+
+    &:active {
+        background-color: #1D2739;
+        color: #8E939C;
+    }
+}
