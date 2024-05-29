@@ -2,6 +2,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @include tablet {
+        order: 3;
+        width: 100%;
+    }
+
+    @include mobile {
+        order: 2;
+    }
 }
 
 .contacts__tel {
@@ -19,6 +28,10 @@
     border: 3px solid #ffffff;
     padding: 3.6px 44.78px 3.6px 40px;
 
+    @include tablet {
+        font-size: 24px;
+        padding: 5.6px 46.78px 5.6px 42px;
+    }
 }
 
 .contacts__address {
@@ -27,6 +40,10 @@
     color: #32425C;
     text-align: center;
     text-decoration: none;
+
+    @include tablet {
+        font-size: 16px;
+    }
 }
 
 .contacts__icon {
