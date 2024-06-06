@@ -84,22 +84,110 @@
 
     <nav class="navigation container">
       <button class="navigation__toggle" type="button">
-        <svg class="navigation__icon" width="24y" height="24">
-          <use xlink:href="img/sprite.svg#menu"/>
+        <svg class="navigation__icon" width="24" height="24">
+          <use xlink:href="img/sprite.svg#menu" />
         </svg>
       </button>
       <div class="navigation__links">
-        <a class="navigation__link" href="#">Главная</a>
-        <a class="navigation__link" href="#">Компания</a>
-        <a class="navigation__link" href="catalog.html">Каталог</a>
-        <a class="navigation__link" href="#">Новости</a>
-        <a class="navigation__link" href="#">Спецпредложения</a>
-        <a class="navigation__link" href="#">Доставка</a>
-        <a class="navigation__link" href="#">Контакты</a>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Главная</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Компания</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="catalog.html">Каталог</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Новости</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Спецпредложения</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Доставка</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Контакты</a>
+        </li>
       </div>
     </nav>
   </header>
-<script src="./js/navigation.js"></script>
+
+  <main class="main">
+    <section class="goods container">
+      <h2 class="visually-hidden">Товары</h2>
+      <ul class="goods__list">
+        <li class="goods__item goods__item--materials">
+          <p class="goods__name">Материалы
+            <a class="goods__link goods__link--materials" href="#">на любой вкус</a>
+          </p>
+          <span>
+            <svg class="goods__icon" width="44" height="65">
+              <use xlink:href="img/sprite.svg#materials" />
+            </svg>
+          </span>
+        </li>
+        <li class="goods__item goods__item--tool">
+          <p class="goods__name">Инструмент
+            <a class="goods__link goods__link--tool" href="#">на все случаи</a>
+          </p>
+          <span>
+            <svg class="goods__icon" width="75" height="61">
+              <use xlink:href="img/sprite.svg#tool" />
+            </svg>
+          </span>
+        </li>
+        <li class="goods__item goods__item--technique">
+          <p class="goods__name">Техника
+            <a class="goods__link goods__link--technique" href="#">для стройки</a>
+          </p>
+          <span>
+            <svg class="goods__icon" width="78" height="62">
+              <use xlink:href="img/sprite.svg#technique" />
+            </svg>
+          </span>
+        </li>
+        <li class="goods__item goods__item--discounts">
+          <p class="goods__name">Скидки 50%
+            <a class="goods__link goods__link--discounts" href="#">на 350 товаров</a>
+          </p>
+          <span>
+            <svg class="goods__icon" width="59" height="73">
+              <use xlink:href="img/sprite.svg#discounts" />
+            </svg>
+          </span>
+        </li>
+        <li class="goods__item goods__item--delivery">
+          <p class="goods__name">Доставка
+            <a class="goods__link goods__link--delivery" href="#">бесплатно</a>
+          </p>
+          <span>
+            <svg class="goods__icon" width="78" height="63">
+              <use xlink:href="img/sprite.svg#delivery" />
+            </svg>
+          </span>
+        </li>
+      </ul>
+      <section class="slider">
+        <h2 class="visually-hidden"></h2>
+        <ul class="slider__list">
+          <li class="slider__item slider__item--hammer-drill">
+            <p class="slider__title">Перфораторы</p>
+            <p class="slider__description">Настоящие мужские игрушки</p>
+            <a class="slider__link" href="catalog.html">Открыть каталог</a>
+          </li>
+          <li class="slider__item slider__item--drill">
+            <p class="slider__title">Дрели</p>
+            <p class="slider__description">Соседям на радость!</p>
+            <a class="slider__link" href="catalog.html">Открыть каталог</a>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+
+  <script src="./js/navigation.js"></script>
 </body>
 
 </html>
